@@ -6,7 +6,7 @@ li{list-style:none}
 
 img{vertical-align:top;border:none}
 
-#bannerImg,.bannerBelowBox,.detailBoxImg1,.detailBoxImg2{
+#beVipImg,#headSearchBox1Img,#bannerImg,.bannerBelowBox,.detailBoxImg1,.detailBoxImg2{
 	background-color: #e7e7e7;
 }
 #banner{
@@ -20,18 +20,149 @@ img{vertical-align:top;border:none}
 }
 
 header{
-	height: 145px;
 	background-color: white;
+	min-width: 1480px;
+	width: 100%;
 }
 body{
 	background-color: #f7f7f7;
 }
 footer{
-    margin-top: 90px;
-    height: 50px;
+	margin-top: 90px;
+	height: 50px;
 	background-color: black;
 	float: left;
 	width: 100%;
+}
+header,#headLogo,#headNav,#headSearch,#headLogin{
+	height: 100px;
+}
+#headLogo{
+	width: 200px;
+	float: left;
+}
+#headLogo h1{
+margin-top: 35px;
+margin-left: 50px;
+color: orangered;
+}
+#headNav{
+	width: 500px;
+	float: left;
+
+}
+#headNav ul{
+	margin-top: 44px;
+
+}
+#headNav ul li{
+	float: left;
+	margin: 0 20px;
+
+}
+#headNav ul li a{
+	size: 16px;
+	color: #000000;
+	
+}
+#beVipImg{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 8px;
+}
+#headSearch{
+	width: 580px;
+	float: left;
+
+}
+#headSearchBox1{
+	height: 40px;
+	margin-top: 20px;
+	border: 3px orangered solid;
+}
+#headSearchBox1Img{
+	width: 38px;
+	height: 38px;
+	float: left;
+	margin: 1px;
+}
+#headSearchBox1Input{
+	width: 426px;
+	height: 40px;
+	float: left;
+	margin-left: 8px;
+}
+#headSearchBox1Input input{
+	width: 426px;
+	height:40px; 
+	padding: 0px;
+	border: 0px;
+}
+#headSearchBox1Button{
+	height: 40px;
+	width: 100px;
+	float: left;
+}
+#btnSearch{
+	background-color: orangered;
+	color: white;
+	width: 100px;
+	height: 41px;
+	padding: 0px;
+	border: 0px;
+}
+#headSearchBox2{
+	height: 30px;
+	margin-top: 7px;
+}
+#headSearchBox2 ul{
+
+}
+#headSearchBox2 ul li{
+	size: 14px;
+	float: left;
+	margin: 4px 0px;
+}
+#headSearchBox2 ul li span,#headSearchBox2 ul li a,#headLogin ul li a,#headLogin ul li span{
+	color: #9c9c9c;
+}
+#headSearchBox2 ul li span{
+	margin: 0 4px;
+}
+#headLogin{
+	width: 120px;
+	float: right;
+
+}
+#headLogin ul{
+	margin: 30px 0;
+}
+#headLogin ul li{
+	size: 14px;
+	float: left;
+	margin: 4px 0px;
+}
+#headLogin ul li span{
+	margin: 0 8px;
+}
+#contentNav{
+	width: 100%;
+	height:71px;
+	background-color: #ffffff;
+}
+#contentNav ul{
+	height: 71px;
+	width: 100%;
+	margin: 0 50px;
+}
+#contentNav li{
+	float: left;
+	margin: 25px 50px 25px 0px;
+}
+#contentNav li a{
+	size: 16px;
+	color: #333333;
 }
 #content{
 	min-width: 1580px;
@@ -163,10 +294,10 @@ footer{
 }
 .contentTitle{
 	font-size: 24px;
-    font-weight: bold;
-    word-spacing: 8px;
-    width: 100px;
-    margin: 40px auto 0px auto;
+	font-weight: bold;
+	word-spacing: 8px;
+	width: 100px;
+	margin: 40px auto 0px auto;
 }
 .detailBoxImgBox{
 	width: 332px;
@@ -180,13 +311,13 @@ footer{
 	float: left;
 }
 .detailBoxImg1{
-width: 208px;
-height: 216px;
-float: left;
+	width: 208px;
+	height: 216px;
+	float: left;
 }
 .detailBoxImg2{
-width: 104px;
-height: 70px;
-float: right;
-margin-bottom: 3px;
+	width: 104px;
+	height: 70px;
+	float: right;
+	margin-bottom: 3px;
 }
